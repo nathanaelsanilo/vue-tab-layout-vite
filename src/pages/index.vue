@@ -1,5 +1,8 @@
 <template>
-<h1>index pages works!</h1>
+<section>
+  <h1>hello</h1>
+  <VSwitch></VSwitch>
+</section>
 </template>
 
 <route lang="yaml">

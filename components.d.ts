@@ -5,8 +5,17 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AppNav: typeof import('./src/components/AppNav/index.vue')['default']
+    Product: typeof import('./src/components/product.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Setting: typeof import('./src/components/setting.vue')['default']
+    Switch: typeof import('@headlessui/vue')['Switch']
+    Tab: typeof import('@headlessui/vue')['Tab']
+    TabGroup: typeof import('@headlessui/vue')['TabGroup']
+    TabList: typeof import('@headlessui/vue')['TabList']
+    TabPanel: typeof import('@headlessui/vue')['TabPanel']
+    TabPanels: typeof import('@headlessui/vue')['TabPanels']
     VSwitch: typeof import('./src/components/VSwitch/index.vue')['default']
   }
 }

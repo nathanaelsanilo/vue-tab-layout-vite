@@ -5,4 +5,6 @@ import './index.css'
 
 import { router } from './router'
 
-createApp(App).use(router).mount('#app')
+import { pinia } from './store'
+
+createApp(App).use(router).use(pinia).mount('#app')

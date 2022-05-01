@@ -16,8 +16,5 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
-import { Switch } from '@headlessui/vue'
-
 const enabled = ref(false)
 </script>
